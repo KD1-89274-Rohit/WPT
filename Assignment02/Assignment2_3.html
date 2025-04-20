@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div align='center'>
+        <img src="sunb.png" title="sunbeam logo">
+        <h2>Sunbeam Registration Form</h2>
+    </div>
+        <table>
+            <tbody>
+                <tr>
+                    <td rowspan ="10">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Az5Bt3zUtiM?si=A-Cv6fdgUKXT2rxN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </td>
+                    <td><label>Name:</label></td>
+                    <td><input type="text" name="name" placeholder="Enter Name"></td>
+                </tr>
+                <tr>
+                    <td>BirthDate:</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="text" name="email" placeholder="Enter Email"></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="text" name="password" placeholder="Enter Password"></td>
+                </tr>
+                <tr>
+                        <td>Address:</td>
+                        <td>
+                            <textarea id="addr" name="addr" rows="5">Sunbeam Institute of IT 'Anuda Chambers', Near Gujar Hospital, Karad-415110 (Maharashtra)</textarea>
+                        </td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" name="gender" value="Male">Male
+                        <input type="radio" name="gender" value="Female">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Upload Photo:</td>
+                    <td>
+                        <label for="myfile" name="myfile"></label>
+                        <input type="file" name="myfile">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cars">Select from Course:</label>
+                    </td>
+                    <td>
+                        <select name="cars" id="cars">
+                            <option value="" disabled selected>Choose your course</option>
+                            <option value="DAC">DAC</option>
+                            <option value="DMC">DMC</option>
+                            <option value="DBDA">DBDA</option>
+                            <option value="DITIS">DITIS</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Skill Set:</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="skills" value="Java">
+                        <label for="java">Java</label>
+
+                        <input type="checkbox" id="cpp" name="skills" value="CPP">
+                        <label for="cpp">CPP</label>
+      
+                        <input type="checkbox" id="os" name="skills" value="OS">
+                        <label for="os">OS</label>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        
+                    </td>
+                    <td>
+                        <button type="button">Register</button>
+                        <button type="button">Save</button>
+                    </td>
+                </tr>
+                
+            </tbody>
+            
+        </table>
+    
+</body>
+</html>
