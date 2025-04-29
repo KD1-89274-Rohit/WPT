@@ -1,0 +1,20 @@
+Authorization  can be done in two ways
+
+1. you can add in Authorization-> bearer token
+--request.headers.authorization
+
+2. you can add in headers
+-- request.headers.token(key)
+
+
+login __ method
+
+1st if if -> error in db
+else 2nd - if didn't register
+else 3rd - if -> isDeleted(Boolean value) not deleted from table but isDeleted to true
+(error,user(data)) -> returns array and select array at 0 index
+
+-----------------------------------------------------------------------------------------
+
+GET PROPERTY DETAILS BY ID ->>
+UPDATE PROPERTY DETAILS ->> PUT METHOD
